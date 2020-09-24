@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function adicionaNumeros() {
+        var quantidade = parseInt(prompt("Quantos números você irá armazenar?"));
+        var vet = [];
+
+        if(quantidade > 0) {
+            for(var numero = 0; numero < quantidade; numero++) {
+                vet.push(parseInt(prompt("Digite um número.")));
+            }
+        }
+
+        document.write(vet);
+    }
+
+    adicionaNumeros();
+
+</script>
